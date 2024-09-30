@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <style>
+        table {
+            border: 4px solid #000000;
+            background-color: #d6d6d6;
+            margin: auto;
+            border-collapse: collapse;
+            width: 50%;
+            text-align: center;
+        }
+
+        .TableTitle {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        thead tr th {
+            border: 4px solid #000000;
+            background-color: #b48bf5;
+        }
+
+        th,
+        td {
+            border: 2px solid #000000;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 5px;
+            padding-right: 10px
+        }
+
+        tr:hover {
+            background-color: rgb(103, 219, 240);
+        }
+
+        .total {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <h2 class="TableTitle">Preços de produtos eletrônicos</h2>
+
+        <thead>
+
+            <tr>
+                <th>Produtos</th>
+                <th>Preço</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>NoteBook</td>
+                <td>R$ 3.500,00</td>
+            </tr>
+
+            <tr>
+                <td>Celular</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+
+            <tr>
+                <td>Tablet</td>
+                <td>R$ 1.500,00</td>
+            </tr>
+
+            <tr>
+                <td>TV Digital</td>
+                <td>R$ 3.200,00</td>
+            </tr>
+
+        <tfoot>
+            <tr>
+                <td class="total">Total:</td>
+                <td>R$ 9.400,00</td>
+            </tr>
+        </tfoot>
+
+        </tbody>
+    </table>
+
+<a href="http://127.0.0.1:5500/Tabelas/tabela.html" style="text-decoration: none; color: black; font-size: 50px;">Tabela Aqui, clique por favor.</a>
+
+</body>
+
+</html>
